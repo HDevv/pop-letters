@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap");
 
 * {
   margin: 0;
@@ -6,10 +6,13 @@
   box-sizing: border-box;
 }
 body {
-  background: linear-gradient(180deg, #0C003C 0%, #BFFFAF 100%), linear-gradient(165deg, #480045 25%, #E9EAAF 100%), linear-gradient(145deg, #480045 25%, #E9EAAF 100%), linear-gradient(300deg, rgba(233, 223, 255, 0) 0%, #AF89FF 100%), linear-gradient(90deg, #45EBA5 0%, #45EBA5 30%, #21ABA5 30%, #21ABA5 60%, #1D566E 60%, #1D566E 70%, #163A5F 70%, #163A5F 100%);
-  background-blend-mode: overlay, overlay, overlay, multiply, normal;
+  background-image: linear-gradient(
+    180.4deg,
+    rgba(188, 120, 236, 1) -2.2%,
+    rgba(29, 133, 163, 1) 83.5%
+  );
   min-height: 100vh;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -28,9 +31,15 @@ body {
   position: absolute;
 }
 @keyframes color {
-  0% {color: blue;}
-  50% {color: #ec006e;}
-  100% {color: blue;}
+  0% {
+    color: blue;
+  }
+  50% {
+    color: #ec006e;
+  }
+  100% {
+    color: blue;
+  }
 }
 .letter {
   transform: translateZ(200px);
@@ -45,4 +54,3 @@ body {
     transform: translateZ(-280px) translateX(200px);
   }
 }
-
